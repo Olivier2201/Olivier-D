@@ -25,6 +25,10 @@ body {
   font-size: 40px;
   font-weight: bold;
 }
+}
+.click:hover{
+background-color:rgba(250, 1, 1, 0.651);
+}
 nav {
   display: flex;
   align-items: center;
