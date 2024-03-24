@@ -6,10 +6,10 @@
     <title>Personal Portifolio Website - Olivier</title>
     <link href="https://apply.holbertonschool.com/level2/school.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="behavior.js">
     <link rel="icon" href="images/city.png">
-    <script src="behavior.js"></script>
-       <script
+    <link rel="stylesheet" href="behavior.js">
+
+    <script
       src="https://kit.fontawesome.com/c27d0479d1.js"
       crossorigin="anonymous"
     ></script>
@@ -69,40 +69,75 @@
             </div>
             <div class="tab-contents active-tab" id="skills">
               <ul>
+
+              <div>
                 <li>
-                  <span>Network Engineering</span><br />Building Network
-                  Enterprises
-                </li>
+                  <span>AI Career Assentials</span><br> <br>
+                  <ol class="list">Data Analysis and Interpretation</ol>
+                  <ol class="list">Programming and Scripting</ol>
+                  <ol class="list">Data Visualization</ol>
+                  <ol class="list">Statistical Analysis</ol>
+                  <ol class="list">Communication Skills</ol>
+                </li><br>
+              </div>
+
+
+              <div>
                 <li>
-                  <span> Network and System Administration</span><br />
-                  All Server management tools and Security Control
-                </li>
+                  <span>Network Engineering</span><br> <br>
+                  <ol class="list">Cloud Networking</ol>
+                  <ol class="list">Network Design and Implementation</ol>
+                  <ol class="list">Network Security</ol>
+                  <ol class="list">Routing and Switching</ol>
+                  <ol class="list">Network Troubleshooting</ol>
+                  <ol class="list">Network Virtualization</ol>
+                </li><br>
+              </div>
+                
+
+              <div>
                 <li>
-                  <span>Computer Repair</span><br />Computer hardware & software maintenance
-                </li>
+                  <span>Network and System Administration</span><br> <br>
+                  <ol class="list"> Network Monitoring and Troubleshooting</ol>
+                  <ol class="list">Network Upgrades and Expansion</ol>
+                  <ol class="list">Disaster Recovery and Backup</ol>
+                  <ol class="list">Network Performance Optimization</ol>
+                  <ol class="list">Network Policy and Compliance</ol>
+                </li><br>
+              </div>
+
+
+
+              <div>
+                <li>
+                  <span>Computer Repair</span><br> <br>
+                  <ol class="list"> Diagnosing hardware and software problems</ol>
+                  <ol class="list">Diagnosing hardware and software problems</ol>
+                  <ol class="list">Data recovery</ol>
+                  <ol class="list">Maintenance and preventive care</ol>
+                  <ol class="list">Customer service and support</ol>
+                </li><br>
+              </div>
               </ul>
             </div>
 
             <div class="tab-contents" id="experience">
               <ul>
-                <li><span>01/2023 - Present </span><br />Yumn Ltd</li>
-                <li><span>02-2022 - 12-2022</span><br />Yumn Ltd</li>
+                <li><span>IT Support at Yumn Ltd </span><br>01/2023 - Present</li><br>
+
+                <li><span>IT Support &Operator Yumn Ltd </span><br> 02-2022 - 12-2022 </li><br>
                 <li>
-                  <span>06-2020 - 05-2021</span><br />Computing &Informatic
-                  Solution
-                </li>
-                <li><span>06/2021 - 02/2022 </span><br />WHITE STAR CAFE</li>
+                  <span>IT Technician at CIS</span><br>06-2020 - 05-2021</li><br>
+
+                <li><span>IT Technician at WHITE STAR CAFE</span><br>06/2021 - 02/2022</li><br>
                 <li>
-                  <span>12/2019 - 02/2020 </span><br />BDF ( Business and
-                  development Fund)
-                </li>
+                  <span> BDF</span><br>12/2019 - 02/2020</li><br>
               </ul>
-           
-            </div>
+           </div>
 
             <div class="tab-contents" id="certification">
               <ul>
-                <li><span>03-08-2023 - 17-12-2023 </span><br />Google IT Support</li>
+                <li><span> Google IT Support</span><br>03-08-2023 - 17-12-2023</li>
                 </li>
               </ul>
             </div>
@@ -114,12 +149,12 @@
             <div class="tab-contents" id="education">
               <ul>
                 <li>
-                  <span>2017 - 2019</span><br /><b> PADRI VKEKO TVET SCHOOL</b
-                  ><br />
+                  <span>  PADRI VKEKO TVET SCHOOL</span><br><b>2017 - 2019 </b
+                  ><br> <br>
                   Information Communicatin & Technology in Field of Networking
                 </li>
-                <li>
-                  <span>2014 - 2016 </span><br /><b>KIVUMU SECONDARY SCHOOL</b
+                <li> <br>
+                  <span> KIVUMU SECONDARY SCHOOL</span><br /><b>2014 - 2016</b
                   ><br />
                   General Lessons
                 </li>
@@ -135,16 +170,16 @@
       <div class="container">
         <div class="row">
           <div class="contact-left">
-            <h1 class="sub-title">Contact Me</h1>
-            <p>
+            <h1 class="sub-title">Contact</h1>
+            <p class="con">
               <i class="fa-solid fa-paper-plane"></i
               >dusabamahoroolivier5@gmail.com
             </p>
-            <p><i class="fa-solid fa-square-phone"></i>+250 786 522 150</p>
+            <p class="con"><i class="fa-solid fa-square-phone"></i>+250 786 522 150</p>
             <div class="social-icons">
               <a href="https://www.facebook.com/profile.php?id=61556745596711"
-                ><i class="fa-brands fa-facebook"></i
-              ></a>
+                ><i class="fa-brands fa-facebook"></i> 
+              </a>
               <a href="https://twitter.com/dusabamahoro_o"
                 ><i class="fa-brands fa-square-x-twitter"></i
               ></a>
@@ -186,6 +221,43 @@
       </div>
     </div>
 
+    <script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname) {
+  for (tablink of tablinks) {
+    tablink.classList.remove("active-link");
+  }
+
+  for (tabcontent of tabcontents) {
+    tabcontent.classList.remove("active-tab");
+  }
+  event.currentTarget.classList.add("active-link");
+  document.getElementById(tabname).classList.add("active-tab");
+}
+
+const scriptURL =
+  "https://script.google.com/macros/s/AKfycbzvhT0-ORXVmGShudr7elQE-FeHLxy4bGsbUJUyRSXOHnFwH9N90jBdQ82-i8iwI_A/exec";
+const form = document.forms["submit-to-google-sheet"];
+
+const msg = document.getElementById("msg");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  fetch(scriptURL, { method: "POST", body: new FormData(form) })
+    .then((response) => {
+      msg.innerHTML = "Message sent successfully";
+      setTimeout(function () {
+        msg.innerHTML = "";
+      }, 5000);
+      form.reset();
+    })
+    .catch((error) => console.error("Error!", error.message));
+});
+
+    </script>
     
   </body>
 </html>
