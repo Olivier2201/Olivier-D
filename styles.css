@@ -122,6 +122,7 @@ nav ul li a:hover::after {
   position: relative;
   margin-top: 20px;
   text-decoration: underline;
+  color: rgba(24, 156, 12, 0.954);
   
 }
 
@@ -133,7 +134,7 @@ nav ul li a:hover::after {
   content: "";
   width: 0;
   height: 3px;
-  background: #52971a;
+  background: red;
   position: absolute;
   left: 0;
   bottom: -8px;
@@ -148,7 +149,7 @@ nav ul li a:hover::after {
   font-size: 40px;
 }
 .tab-contents ul li span {
-  color: rgba(250, 1, 1, 0.651);
+  color: rgba(66, 24, 216, 0.651);
   font-size: 50px;
 }
 
@@ -226,7 +227,7 @@ nav ul li a:hover::after {
   text-decoration: none;
   font-size: 30px;
   margin-right: 15px;
-  color: #4323b6;
+  color: #0a090f;
   display: inline-block;
   transition: transform 0.5s;
 }
@@ -247,12 +248,16 @@ nav ul li a:hover::after {
   transition: background 0.5s;
 }
 .btn:hover {
-  background: rgba(250, 1, 1, 0.651);
+  background: rgba(95, 116, 199, 0.831);
 }
 
 .btn.btn2 {
   display: inline-block;
-  background: rgba(250, 1, 1, 0.651);
+  background: rgba(239, 9, 9, 0.927);
+}
+
+.btn.btn2:hover{
+  background-color: #000000;
 }
 .contact-right form {
   width: 100%;
@@ -279,13 +284,13 @@ form .btn2 {
   width: 100%;
   text-align: center;
   padding: 25px 0;
-  background: rgb(19, 18, 18);
+  background: rgba(67, 62, 62, 0.984);
   font-weight: bold;
   margin-top: 20px;
   font-size: 20px;
 }
 .copyright i {
-  color: rgba(250, 1, 1, 0.651);
+  color: rgb(241, 3, 3);
 }
 #msg {
   color: rgb(70, 211, 70);
